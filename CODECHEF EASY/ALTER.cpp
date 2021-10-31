@@ -4,10 +4,12 @@ using namespace std;
 int main()
 {
     int t;
+    cout<<"Enter the integer t how many times you want to loop the code ";
     cin >> t;
     while (t--)
     {
         long long int a, b, p, q;
+        cout<<"Enter a,b,p,q";
         cin >> a >> b >> p >> q;
         int x, y;
         if (p % a != 0 || q % b != 0)
